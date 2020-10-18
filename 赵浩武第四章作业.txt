@@ -1,0 +1,13 @@
+第一题
+1、终端输入roslaunch learning_launch homework1_1.launch
+2、终端输入roslaunch learning_launch homework1_2.launch
+3、第一个终端输入roslaunch learning_launch homework1_3.launch，第二个终端输入rosservice call /turtle_command 按tab键补全
+
+第二题
+下载后将模型放入/.gazebo/models文件夹下
+终端输入roslaunch gazebo_ros mud_world.launch
+
+第三题
+第一个终端输入roscore
+第二个终端输入rosrun learning_tf homework3_broadcaster
+第三个终端输入rosrun learning_tf homework3_listener
